@@ -1,0 +1,51 @@
+@import url(tema.css);
+
+h1{
+    margin-top: 60px;
+    background-color: var(--alfa);
+    color: var(--echo);
+    font-size: 2.5rem;
+}
+.nosotros, .mision, .vision {
+    background-color: var(--charly);
+    padding: 20px;
+    color: var(--echo);
+    text-shadow: 0px 0px 10px var(--falcon);
+    width: 100%;
+    font-size: 40px;
+}
+
+.about-us{
+    background-color: var(--bravo);
+    border: 2px var(--delta) solid;
+}
+
+.container, img:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+}
+
+.description-text{
+    font-size: 18px;
+    color: var(--echo);
+    margin-top: 50px;
+    text-shadow: 0px 0px 10px var(--falcon);
+    
+}
+
+.socials i{
+    font-size: 30px;
+    text-align: center;
+    color: var(--bravo);
+    background-color: var(--charly);
+    padding: 25px;
+    margin: 0 0 0 0px;
+}

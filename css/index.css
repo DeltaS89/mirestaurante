@@ -1,0 +1,143 @@
+@import url(tema.css);
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+main.container {
+    max-width: 600px;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.carousel-inner {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--bravo);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+/* .carousel-item img {
+    object-fit: cover;
+} */
+
+h2.text-primary {
+    margin-top: 60px; 
+    background: #3f6766 !important;
+    color: #ffffff !important;
+    padding: 20px; 
+}
+
+.boton-ver-menu {
+    margin: 20px 0; 
+    background-color: #3f6766;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+
+.boton-ver-menu:hover {
+    background-color: #a1b8b2;
+}
+
+.p1 {
+    color: #333; 
+    font-size: 1.1em; 
+    margin-bottom: 25px; 
+}
+
+#demo {
+    width: 100%;
+}
+
+.p2 {
+    text-align: left;
+    margin-bottom: 20%;
+    font-size: 1.1rem;
+    color: var(--falcon);
+    font-weight: bold;
+    height: 100px;
+    width: 400px;
+    background-color: rgba(252, 252, 252, 0.74);
+    padding: 10px;
+}
+
+h5{ 
+    font-weight: bold;
+    color:var(--falcon);
+    text-align: left; 
+    font-size: 2rem;
+    height: 50px;
+    width: 200px;
+    background-color: rgba(252, 252, 252, 0.74);
+
+}
+
+
+.carousel-caption-hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    -webkit-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    -moz-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    -ms-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+
+.carousel-caption-visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.rounded-circle{
+    margin-bottom: 50px;
+}
+
+
+h6{
+    font-size: 1.5rem;
+}
+
+.p3{
+    font-size: 1.2rem;
+    margin: 0 300px 0 300px;
+}
+
+.background-image{
+    border: solid var(--echo);
+}

@@ -1,0 +1,71 @@
+@import url(tema.css);
+
+:root {
+    --alfa: #46736E;
+    --bravo: #365956;
+    --charly: #8DA69F;
+    --delta: #D4D9D0;
+    --echo: #fff;
+    --falcon: #0D0D0D;
+}
+    
+/* iframe {
+    margin-top: 61px;
+    margin-bottom: 20px;
+} */
+
+
+.list-unstyled {
+    margin: 0px;
+}
+
+.locacion,
+.telefono,
+.correo{
+    margin: 25px !important;
+}
+
+.contact {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h4 {
+    color: #fff !important; 
+    margin-bottom: 20px; 
+    font-size: 50px;
+    padding: 40px;
+}
+
+.atencion{
+    background-color: var(--falcon);
+}
+
+.form-title {
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 100px;
+}
+
+
+.btn-success{
+    background-color: var(--bravo);
+    font-size: 20px;
+}
+
+.btn-success:hover {
+    background-color: #a1b8b2; 
+}
+
+input{
+    padding: 15px;
+}
+
+label{
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,96 @@
+@import url(tema.css);
+
+.titleServicios {
+    margin-top: 60px;
+    color: var(--echo);
+    text-align: center;
+    background-color: var(--alfa);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.col-sm i {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 15px;
+    color: var(--bravo);
+    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -ms-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+}
+
+
+.col-sm i:hover {
+    background-color: var(--echo);
+}
+
+
+.col-sm i {
+    font-size: 4rem;
+}
+
+.col-sm h4, .col-sm p {
+    margin-bottom: 5px;
+}
+
+
+.row {
+    margin-bottom: 20px;
+}
+
+
+
+
+h4 {
+    font-size: 1.2rem;
+    color: var(--echo);
+    margin-bottom: 20px;
+    padding: 50px;
+    text-shadow: 0px 0px 10px var(--falcon);
+}
+
+h5{
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 1.8rem;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+
+.col-sm {
+    text-align: left;
+    margin: 5px;
+    background-color: var(--delta);
+    padding: 5px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+.col-sm:hover {
+    background-color: #d5dbdb;
+}
+
+.servicesImage {
+    border-radius: 25px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: rgba(160, 160, 160, 0.5);
+}

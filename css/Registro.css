@@ -1,0 +1,112 @@
+:root{
+    --alfa: #46736E;
+    --bravo: #365956;
+    --charly: #8DA69F;
+    --delta: #D4D9D0;
+    --echo: #fff;
+    --falcon: #0D0D0D;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--delta);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: auto; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    margin-top: 10px;
+    border: 1px solid var(--bravo);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--charly);
+    color: var(--falcon);
+    width: 500px; 
+    height: auto;
+}
+
+.card-header {
+    background-color: var(--charly);
+    color: var(--echo);
+    text-align: center;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: #365956 solid 2px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: var(--bravo);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--charly);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.card-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+h2{
+    color: var(--falcon);
+    font-weight: bold;
+}
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.user-icon label {
+    color: var(--alfa); 
+}
+
+.user-text {
+    text-align: center;
+    color: var(--falcon); 
+    margin-top: 10px; 
+}
+
+
+

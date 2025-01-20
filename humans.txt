@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Rolando Sequeira Victor -- SEO -- @roloseqvic
+    aaaaaaa-- Programador -- @aaaaa
+
+# THANKS
+
+    <name>
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, sweetAlert, X

@@ -1,0 +1,65 @@
+@import url(tema.css);
+
+#map {
+    margin-top: 65px;
+    height: 400px;
+    width: 100%;
+}
+
+/* información debajo del mapa */
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* información */
+.info-row {
+    display: flex;
+
+}
+
+/* cuadro de información */
+.info-box {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: var(--delta);
+    border-radius: 10px;
+    margin: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* imagen en cada cuadro de información */
+.info-image {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.info-image:hover{
+    opacity: 0.5;
+}
+
+/* detalles en cada cuadro de información */
+.info-details {
+    flex-grow: 1;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+p{
+    margin: 2px;
+    font-size: 1rem;
+}
+
+strong{
+    font-size: 1.2rem;
+}

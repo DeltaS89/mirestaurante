@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Página no Encontrada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(img/error.png);
+            background-size: cover;
+            display: table-cell;
+            vertical-align: middle;
+            margin: 0;
+            padding: 2em;
+            opacity: 0; 
+            transform: translateY(20px); 
+            transition: opacity 0.8s, transform 0.8s; 
+        }
+
+        body.loaded {
+            opacity: 1; 
+            transform: translateY(0); 
+        }
+
+        h1 {
+            color: #000000;
+            background-color: #fff;
+            width: 1000px;
+            margin-left: 550px;
+            font-size: 3rem;
+            font-weight: 400;
+            transition: transform 0.8s ease-in-out; 
+        }
+
+        p {
+            color: #fff;
+            font-size: 2rem;
+            margin: 0 auto;
+            transition: transform 0.8s ease-in-out; 
+        }
+
+        @media only screen and (max-width: 280px) {
+
+            body,
+            p {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+
+        }
+    </style>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function () {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Error 404: No se encontró el recurso solicitado</h1>
+    <p>Lo siento, el recurso buscado no existe.</p>
+</body>
+
+</html>
+
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
